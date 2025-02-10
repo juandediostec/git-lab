@@ -9,6 +9,8 @@ Esta es la descripción del README, introducción a Github
 
 ## Contents
 
+## Images
+
 ![Image of Wooper, the Pokemon](194-Wooper.webp);
 
 ## References
