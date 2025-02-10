@@ -15,10 +15,12 @@ Esta es la descripción del README, introducción a Github
 
 ### Code Examples
 
-```int a
+```
+int a
 int b
 int resultado
-resultado = a + b```
+resultado = a + b
+```
 
 ## References
 
