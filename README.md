@@ -17,9 +17,9 @@ Esta es la descripción del README, introducción a Github
 
 ### Lists
 
-- [ x ] Turn on GitHub Pages
-- [ x ] Outline my portfolio
-- [ x ] Introduce myself to the world
+- [x] Turn on GitHub Pages
+- [x] Outline my portfolio
+- [x] Introduce myself to the world
 
 ### Code Examples
 
