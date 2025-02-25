@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Git</title>
+</head>
+<body>
+    <header>
+        <h1>Comandos de Git y Github</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="web.html">Inicio</a></li>
+            <li><a href="comandos.html">Comandos Terminal</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p><strong>Flujo de Trabajo Básico (Para proyectos pequeños o personales)</strong></p>
+        <ol>
+            <li>Clonar el repositorio.</li>
+            <li>Hacer los cambios en el código.</li>
+            <li>Ver estado de los cambios.</li>
+            <li>Agregar los cambios al área de preparación.</li>
+            <li>Hacer un commit.</li>
+            <li>Subir los cambios al repositorio remoto.</li>
+        </ol>
+
+        <p><strong>Flujo de Trabajo con Ramas (Para proyectos colaborativos)</strong></p>
+        <ol>
+            <li>Clonar el repositorio.</li>
+            <li>Crear una nueva rama</li>
+            <li>Hacer cambios en el código</li>
+            <li>Ver estado de los cambios.</li>
+            <li>Agregar los cambios al área de preparación.</li>
+            <li>Hacer un commit.</li>
+            <li>Subir la rama al repositorio remoto.</li>
+            <li>Crear un Pull Request en GitHub.</li>
+            <li>Actualizar tu rama local después del merge</li>
+        </ol>
+
+        <p><strong>Tabla de Comandos de Git</strong></p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>¿Qué hace el comando?</th>
+                    <th>Comando</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Clonar el repositorio</td>
+                    <td><code>git clone https://github.com/usuario/repositorio.git</code></td>
+                </tr>
+                <tr>
+                    <td>Ver estado de los cambios</td>
+                    <td><code>git status</code></td>
+                </tr>
+                <tr>
+                    <td>Agregar los cambios al área de preparación</td>
+                    <td><code>git add .</code></td>
+                </tr>
+                <tr>
+                    <td>Hacer un commit</td>
+                    <td><code>git commit -m "Mensaje descriptivo del cambio"</code></td>
+                </tr>
+                <tr>
+                    <td>Subir los cambios al repositorio remoto</td>
+                    <td><code>git push origin main</code></td>
+                </tr>
+                <tr>
+                    <td>Crear una nueva rama</td>
+                    <td><code>git checkout -b nombre-de-la-rama</code></td>
+                </tr>
+                <tr>
+                    <td>Subir la rama al repositorio remoto</td>
+                    <td><code>git push origin nombre-de-la-rama</code></td>
+                </tr>
+                <tr>
+                    <td>Actualizar la rama local después del merge</td>
+                    <td><code>git pull origin main</code></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <p>2025 Juan de Dios. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
