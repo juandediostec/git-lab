@@ -1,0 +1,33 @@
+
+header {
+    border: red 2px solid;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #0000ff;
+    border: black 3px solid;
+    padding: 15px;
+    margin: 10px;
+}
+
+nav {
+    border: orange 3px solid;
+    background-image: url("../images/zeldaWallpaper.webp");
+    color: white;
+}
+
+footer {
+    border: green 3px solid;
+    padding: 10px;
+}
+
+body {
+    border: black 3px solid;
+}
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
