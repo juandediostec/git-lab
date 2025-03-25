@@ -1,2 +1,50 @@
+# macOS
 .DS_Store
+
+# Node.js
 node_modules/
+package-lock.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs/editores comunes
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Entornos
+.env
+.env.*.local
+
+# Producción
+dist/
+build/
+
+# Cache
+.cache/
+.next/
+out/
+
+# Testing
+coverage/
+
+# Optional: si usas TypeScript
+*.tsbuildinfo
+
+# Optional: si usas Firebase
+.firebase/
+
+# Optional: si usas Netlify
+.netlify/
+
+# Optional: si usas Storybook
+.storybook-out/
